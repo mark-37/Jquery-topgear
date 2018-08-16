@@ -70,11 +70,29 @@
 
 	var elems = document.getElementsByClassName('separators');
 
+	var flag = 1;
+
 	setInterval(()=>{
-		
-		
+
+	
+		if(flag == 1) {
+			for(var i = 0; i<elems.length; i++){
+				elems[i].innerHTML = '&nbsp;';
+			}
+			flag = 0;
+		} else {
+			flag = 1;
+
+			for(var i = 0; i<elems.length; i++){
+				elems[i].innerHTML = ':';
+			}
+
+		}
+	
 
 	},1000);
+
+	
 
 })();
 
