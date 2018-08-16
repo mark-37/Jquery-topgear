@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+    margin: 2%;
+}
+
+p.normal {
+    background: blue;
+    color: white;
+}
+
+.dbl {
+    background: yellow;
+    color: black;
+}
+
+fieldset{
+    margin-top: 5%;
+}
+
+#six div {
+  
+   clear: right;
+    border: 2px solid green;
+    
+}
+
+.red {
+    border: 1px dotted blue;
+    background: red;
+}
+
+#one, #two, #three, #four, #five, #six {
+    border: 1px solid grey;
+}
+
+.sample{
+    color: cyan;
+}
+
